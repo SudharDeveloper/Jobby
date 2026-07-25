@@ -8,13 +8,29 @@ A modern job search application built with **React.js** that allows users to bro
 
 ## 📸 Screenshots
 
-| Login | Home |
-|-------|------|
-| Add Screenshot | Add Screenshot |
+# Screenshots
 
-| Jobs | Job Details |
-|------|-------------|
-| Add Screenshot | Add Screenshot |
+## Login Page
+
+![Login](public/screenshots/login.png.png)
+
+---
+
+## Home Page
+
+![Home](public/screenshots/home.png.png)
+
+---
+
+## Jobs Page
+
+![Jobs](public/screenshots/jobs.png.png)
+
+---
+
+## Job Details Page
+
+![Job Details](public/screenshots/job-details.png.png)
 
 ---
 
