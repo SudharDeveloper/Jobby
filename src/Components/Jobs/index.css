@@ -1,0 +1,181 @@
+.jobs-containers {
+  min-height: 100vh;
+  background-color: #000000;
+}
+
+.jobs-container {
+  display: flex;
+  padding: 30px 50px;
+  gap: 30px;
+}
+
+.jobs-1 {
+  width: 28%;
+  color: #ffffff;
+}
+
+.jobs-2 {
+  width: 72%;
+}
+
+/* Profile */
+
+.profile {
+  background-image: url("https://assets.ccbp.in/frontend/react-js/profile-bg.png");
+  background-size: cover;
+  border-radius: 20px;
+  padding: 25px;
+}
+
+.profile-image {
+  width: 70px;
+  height: 70px;
+}
+
+.name {
+  color: #4f46e5;
+  margin-top: 15px;
+}
+
+.bio {
+  color: #475569;
+  line-height: 1.6;
+}
+
+.profile-failure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 180px;
+}
+
+/* Filters */
+
+.type,
+.salary-range {
+  color: #ffffff;
+}
+
+.type ul,
+.salary-range ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.type li,
+.salary-range li {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.type input,
+.salary-range input {
+  margin-right: 10px;
+}
+
+hr {
+  border: 1px solid #475569;
+  margin: 25px 0;
+}
+
+/* Search */
+
+.search-container {
+  display: flex;
+  border: 1px solid #475569;
+  border-radius: 5px;
+  overflow: hidden;
+  width: 420px;
+  margin-bottom: 30px;
+}
+
+.search-input {
+  flex-grow: 1;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  padding: 10px 15px;
+  font-size: 15px;
+}
+
+.search-button {
+  background-color: #272727;
+  border: none;
+  width: 55px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+/* Jobs */
+
+.jobs-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.loader-container,
+.jobs-failure-view,
+.no-jobs-view {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  color: #ffffff;
+}
+
+.failure-image,
+.no-jobs-image {
+  width: 400px;
+  max-width: 100%;
+}
+
+.no-jobs-view h1,
+.jobs-failure-view h1 {
+  margin-top: 25px;
+}
+
+.no-jobs-view p,
+.jobs-failure-view p {
+  color: #cbd5e1;
+  text-align: center;
+}
+
+.retry-button {
+  margin-top: 20px;
+  background-color: #4f46e5;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 22px;
+  cursor: pointer;
+}
+
+/* Mobile */
+
+@media screen and (max-width: 768px) {
+  .jobs-container {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .jobs-1,
+  .jobs-2 {
+    width: 100%;
+  }
+
+  .search-container {
+    width: 100%;
+  }
+
+  .profile {
+    padding: 20px;
+  }
+
+  .failure-image,
+  .no-jobs-image {
+    width: 260px;
+  }
+}
