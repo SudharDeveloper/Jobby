@@ -24,16 +24,16 @@ A modern **React.js** job search application that enables users to browse job li
 ## 📸 Screenshots
 
 ### Login Page
-![Login](screenshots/login.png.png)
+![Login](screenshots/login.png)
 
 ### Home Page
-![Home](screenshots/home.png.png)
+![Home](screenshots/home.png)
 
 ### Jobs Page
-![Jobs](screenshots/jobs.png.png)
+![Jobs](screenshots/jobs.png)
 
 ### Job Details Page
-![Job Details](screenshots/job-details.png.png)
+![Job Details](screenshots/job-details.png)
 
 ---
 
