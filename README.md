@@ -1,45 +1,57 @@
 # 💼 Jobby App
 
-A modern job search application built with **React.js** that allows users to browse job listings, filter jobs by employment type and salary range, search for jobs, and view detailed information about each job.
+A modern **React.js** job search application that enables users to browse job listings, search for jobs, apply filters, and explore detailed job information through a clean and responsive interface.
+
+> ## 🔑 Demo Login Credentials
+>
+> **Username:** `rahul`  
+> **Password:** `rahul@2021`
+>
+> **Username:** `raja`  
+> **Password:** `raja@2021`
+>
+> **Username:** `praneetha`  
+> **Password:** `praneetha@2021`
+
+---
 
 ## 🚀 Live Demo
 
-🔗 https://sudhardeveloper.github.io/Jobby/
+🔗 **https://sudhardeveloper.github.io/Jobby/**
+
+---
 
 ## 📸 Screenshots
 
-# Screenshots
-
-## Screenshots
-
 ### Login Page
-![Login](screenshots/login.png)
+![Login](screenshots/login.png.png)
 
 ### Home Page
-![Home](screenshots/home.png)
+![Home](screenshots/home.png.png)
 
 ### Jobs Page
-![Jobs](screenshots/jobs.png)
+![Jobs](screenshots/jobs.png.png)
 
 ### Job Details Page
-![Job Details](screenshots/job-details.png)
+![Job Details](screenshots/job-details.png.png)
+
 ---
 
 ## ✨ Features
 
-- 🔐 JWT Authentication
-- 🏠 Home Page
-- 👤 User Profile
+- 🔐 Secure JWT Authentication
+- 🏠 Responsive Home Page
+- 👤 User Profile Section
 - 🔍 Search Jobs
-- 💼 Filter by Employment Type
-- 💰 Filter by Salary Range
-- 📄 Job Details Page
+- 💼 Filter Jobs by Employment Type
+- 💰 Filter Jobs by Salary Range
+- 📄 Detailed Job Information
 - 🧠 Similar Jobs Recommendation
-- 🌐 Company Website Link
-- 📱 Responsive Design
-- ❌ Custom 404 Page
-- ⏳ Loading Spinner
+- 🌐 Visit Company Website
+- ⚡ Loading Spinner
 - 🔁 Retry on API Failure
+- ❌ Custom 404 Page
+- 📱 Fully Responsive Design
 
 ---
 
@@ -48,8 +60,9 @@ A modern job search application built with **React.js** that allows users to bro
 ### Frontend
 - React.js
 - React Router DOM
-- CSS3
 - JavaScript (ES6)
+- HTML5
+- CSS3
 
 ### Packages Used
 - react-router-dom
@@ -61,7 +74,7 @@ A modern job search application built with **React.js** that allows users to bro
 
 ## 📂 Project Structure
 
-```
+```text
 src
 │
 ├── Components
@@ -82,45 +95,40 @@ src
 
 ---
 
-## 🔑 Login Credentials
+## 📌 Application Pages
 
-```
-Username: rahul
-Password: rahul@2021
-```
-
----
-
-## 📌 Pages
-
-### Login
+### 🔐 Login
 - User Authentication
-- JWT Token Storage
+- JWT Token Generation
+- Protected Route Access
 
-### Home
+### 🏠 Home
 - Landing Page
-- Navigation to Jobs
+- Navigation to Jobs Page
 
-### Jobs
-- Profile Section
+### 💼 Jobs
+- User Profile
 - Search Jobs
 - Employment Type Filters
-- Salary Filters
-- Jobs Listing
+- Salary Range Filters
+- Job Listings
 
-### Job Details
+### 📄 Job Details
 - Company Information
-- Description
+- Job Description
 - Skills Required
 - Life at Company
 - Similar Jobs
-- Visit Company Website
+- External Company Website Link
+
+### ❌ Not Found
+- Custom 404 Error Page
 
 ---
 
 ## 🔗 API Endpoints
 
-```
+```http
 POST /login
 GET /profile
 GET /jobs
@@ -131,39 +139,39 @@ GET /jobs/:id
 
 ## ⚙️ Installation
 
-Clone the repository
+### Clone the Repository
 
 ```bash
 git clone https://github.com/SudharDeveloper/Jobby.git
 ```
 
-Move into the project
+### Navigate to the Project
 
 ```bash
 cd Jobby
 ```
 
-Install dependencies
+### Install Dependencies
 
 ```bash
 npm install
 ```
 
-Run the application
+### Start Development Server
 
 ```bash
 npm start
 ```
 
-Open
+Open your browser and visit:
 
-```
+```text
 http://localhost:3000
 ```
 
 ---
 
-## 📦 Build
+## 📦 Production Build
 
 ```bash
 npm run build
@@ -171,9 +179,7 @@ npm run build
 
 ---
 
-## 🚀 Deployment
-
-GitHub Pages
+## 🚀 Deploy to GitHub Pages
 
 ```bash
 npm run deploy
@@ -181,16 +187,16 @@ npm run deploy
 
 ---
 
-## 📸 Future Improvements
+## 🎯 Future Improvements
 
-- Bookmark Jobs
-- Apply Job Feature
-- Dark Mode
-- Pagination
-- Sorting
-- Recent Searches
-- Company Reviews
-- Recommended Jobs
+- ❤️ Save/Bookmark Jobs
+- 📄 Apply Job Feature
+- 🌙 Dark Mode
+- 📄 Pagination
+- ↕️ Sorting Options
+- 🕒 Recent Searches
+- ⭐ Company Reviews
+- 🤖 AI Job Recommendations
 
 ---
 
@@ -198,11 +204,36 @@ npm run deploy
 
 **Sudharsan V**
 
-- GitHub: https://github.com/SudharDeveloper
-- LinkedIn: https://www.linkedin.com/in/sudharsan-venkatesan-/
+### GitHub
+https://github.com/SudharDeveloper
+
+### LinkedIn
+https://www.linkedin.com/in/sudharsan-venkatesan-/
 
 ---
 
-## ⭐ Support
+## 🤝 Contributing
 
-If you like this project, please consider giving it a ⭐ on GitHub!
+Contributions, issues, and feature requests are welcome!
+
+If you'd like to improve this project:
+
+1. Fork the repository
+2. Create your feature branch
+3. Commit your changes
+4. Push to the branch
+5. Open a Pull Request
+
+---
+
+## ⭐ Show Your Support
+
+If you found this project helpful, please consider giving it a ⭐ on GitHub.
+
+It motivates me to build more open-source projects!
+
+---
+
+## 📄 License
+
+This project is developed for educational and portfolio purposes.
